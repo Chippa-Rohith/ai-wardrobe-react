@@ -1,0 +1,94 @@
+/* Dashboard Container */
+.dashboard-container {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+/* Header */
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Stats Cards */
+.dashboard-stats {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 20%;
+  margin: 1rem;
+}
+
+.stat-card h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+/* Chart Section */
+.dashboard-chart {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.dashboard-chart h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Table Section */
+.dashboard-table {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-table h2 {
+  margin-bottom: 10px;
+}
+
+.dashboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.dashboard-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.dashboard-table .item-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}

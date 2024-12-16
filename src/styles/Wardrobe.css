@@ -1,0 +1,98 @@
+/* Main Container */
+.wardrobe-container {
+  font-family: "Arial", sans-serif;
+  margin: 20px auto;
+  max-width: 1200px;
+  color: #333;
+}
+
+/* Header Section */
+.wardrobe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wardrobe-header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.wardrobe-header select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Grid Layout */
+.wardrobe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Wardrobe Card */
+.wardrobe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wardrobe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Badge */
+.card-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #38bdf8;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Image */
+.wardrobe-image {
+  margin-top: 10px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Details Section */
+.card-details {
+  padding-bottom: 10px;
+}
+
+.card-details h3 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #007bff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.stock-status {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
